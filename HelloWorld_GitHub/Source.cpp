@@ -11,6 +11,8 @@ int main() {
 
 	cout << "What is your name??"<< endl;
 	getline(cin,name);
+
+	cout << name;
 	system("pause");
 
 	return 0;
