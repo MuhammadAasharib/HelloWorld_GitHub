@@ -28,6 +28,7 @@ int main() {
 	cout << "Now doing the conflicting" << endl;
 
 	cout << "Now doing the double conf";
+	//Prevents the program from closing automatically
 	system("pause");
 
 	return 0;
