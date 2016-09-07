@@ -11,14 +11,13 @@ int main() {
 
 	cout << "What is your name??"<< endl;
 	getline(cin,name);
-
+	
 	cout << name;
 
-	cout << "Now tell me your age" << endl;
-	int age;
-	cin >> age;
+	cout << "Enter the address" << endl;
+	string address;
+	getline(cin, address);
 
-	cout << "Your age is " << age << endl;
 	system("pause");
 
 	return 0;
