@@ -18,6 +18,11 @@ int main() {
 	string address;
 	getline(cin, address);
 
+	cout << "Enter the age" << endl;
+	int age;
+	cin >> age;
+
+	cout << "your age is " << age;
 	system("pause");
 
 	return 0;
