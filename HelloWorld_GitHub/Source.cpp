@@ -24,6 +24,8 @@ int main() {
 
 	cout << "your age is " << age;
 
+	cout << "Now doing the conflicting" << endl;
+
 	cout << "Now doing the double conf";
 	system("pause");
 
