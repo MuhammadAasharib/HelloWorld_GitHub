@@ -13,6 +13,12 @@ int main() {
 	getline(cin,name);
 
 	cout << name;
+
+	cout << "Now tell me your age" << endl;
+	int age;
+	cin >> age;
+
+	cout << "Your age is " << age << endl;
 	system("pause");
 
 	return 0;
