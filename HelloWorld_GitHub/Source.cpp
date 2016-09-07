@@ -23,6 +23,8 @@ int main() {
 	cin >> age;
 
 	cout << "your age is " << age;
+
+	cout << "Now doing the double conf";
 	system("pause");
 
 	return 0;
